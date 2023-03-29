@@ -1,0 +1,7 @@
+services:
+  angular:
+    build: .
+    ports:
+      - "4400:4200"
+    volumes:
+      - .:/app
